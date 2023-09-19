@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T08:19:47.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="odasWnUbgZTwH3Cg7QOw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T08:28:03.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bhuxjZpbjUu9KRPBdVBE" version="21.7.5" type="github">
   <diagram name="Page-1" id="V8-oNrBo4PYw-RONdOFp">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-1" value="Wallet Pay service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-2" value="Credit card service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-7" value="has a method to make payment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FmFBmWxaL6hTMtd5iRR_-3" target="FmFBmWxaL6hTMtd5iRR_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-3" value="Payment Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FmFBmWxaL6hTMtd5iRR_-4" target="FmFBmWxaL6hTMtd5iRR_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FmFBmWxaL6hTMtd5iRR_-4" target="FmFBmWxaL6hTMtd5iRR_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-4" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-5" value="SMS Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-6" value="Mail Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.114;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FmFBmWxaL6hTMtd5iRR_-8" target="FmFBmWxaL6hTMtd5iRR_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="530" />
+              <mxPoint x="56" y="530" />
+              <mxPoint x="56" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FmFBmWxaL6hTMtd5iRR_-8" target="FmFBmWxaL6hTMtd5iRR_-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-12" value="Later it call Notification service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FmFBmWxaL6hTMtd5iRR_-11">
+          <mxGeometry x="-0.0148" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FmFBmWxaL6hTMtd5iRR_-8" value="Pay()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
